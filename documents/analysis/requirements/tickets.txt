@@ -1,0 +1,123 @@
+VT-1 - SetUp Hibernate Configuration
+
+VT-2 - Create Hibernate Model ( Build design Diagrams of Data Base before creating the Model & System Architecture Diagram )
+
+VT-3 - Create Generic Hibernate Repository ( repository for Model and A Generic Repository )
+
+VT-4 - Implement Menu ( check line 36 in "project description" & Build design Diagram for Menu hubs )
+
+VT-5 - Implement Veterinarian Creation
+        Implement method for vet creation
+        If the creation process is successful
+           the system will allocate a unique id to the new vet. ( Auto increment )
+            -- we want to create new entries for vet that will contain :
+                -- first name (verify the entry not blank or empty)
+                -- last name (verify the entry not blank or empty)
+                -- address (verify the entry not blank or empty)
+                -- speciality (verify the entry not blank or empty)
+                    --if system fails we need to display an appropriate message
+
+VT-6 - Implement View all Veterinarians
+        -- we should be able to view all vets
+        -- each line will contain vet's: ID, full name, speciality
+
+VT-7 - Implement View Veterinarian By ID
+        -- we want to view detail of an existing VET by ID.
+        -- if the given ID is found, the following details will be shown:
+                    -- ID, full name, speciality
+        -- if the given ID is not found an appropriate message will be shown.
+
+VT-8 - Implement Update Veterinarian By ID
+        -- we should be able to update the details of an existing VET
+        -- if the given ID is found, we should be able to update the following:
+                    -- last name
+                    -- address
+                    -- speciality
+        -- the system will validate the entry data from user:
+                    -- last name to be not blank and not empty
+                    -- address to be not blank and not empty
+                    -- speciality to be not blank and not empty
+        -- if the update fails and appropriate message will be shown
+        -- if the given ID is not found an appropriate message will be shown.
+
+VT-9 - Implement Delete Veterinarian By ID
+        -- we want to delete an existing VET by ID.
+        -- if the given ID is found, the VET will be deleted and an appropriate message will be shown.
+        -- if the given ID is not found an appropriate message will be shown.
+-----------------------------------------------------------------------------------------------------
+VT-10 - Implement Pet Creation
+        Implement method for pet creation
+            -- we want to create entries for pet that will contain :
+                -- owner name (verify the entry not blank or empty)
+                -- pet name (verify the entry not blank or empty)
+                -- birthday(verify the entry not blank/empty)
+                -- race (verify the entry not blank or empty)
+                -- isVaccinated
+                    --if system fails we need to display an appropriate message
+
+VT-11 - Implement View All Pet's
+        -- we want to view all Pet's in the system
+        -- each line will contain Pet's: ID, Pet Name, Race, BirthDay, isVaccinated, Owner Name
+
+VT-12 - Implement View Pet By ID
+                -- we want to view detail of an existing PET by ID.
+                -- if the given ID is found, the following details will be shown:
+                            -- ID, Pet's Name, Race, BirthDay,isVaccinated, Owner Name
+                -- if the given ID is not found an appropriate message will be shown.
+
+VT-13 - Implement Update PET By ID
+                -- we should be able to update the details of an existing PET
+                -- if the given ID is found, we should be able to update the following:
+                            -- pet's name
+                            -- owner name
+                            -- isVaccinated
+                -- the system will validate the entry data from user:
+                            -- pet's name to be not blank and not empty
+                            -- owner name to be not blank and not empty
+                            -- isVaccinated
+                -- if the update fails and appropriate message will be shown
+                -- if the given ID is not found an appropriate message will be shown.
+
+VT-14 - Implement Delete PET By ID
+        -- we want to delete an existing PET by ID.
+        -- if the given ID is found, the PET will be deleted and an appropriate message will be shown.
+        -- if the given ID is not found an appropriate message will be shown.
+-----------------------------------------------------------------------------------------------------
+VT-15 - Implement Consult Creation
+        Implement method for consult creation
+            -- we want to create entries for consult that will contain :
+                -- vet id (verify the entry not blank or empty or null)
+                -- pet id (verify the entry not blank or empty or null)
+                -- date (verify the entry not blank or empty)
+                -- description (verify the entry not blank or empty)
+                    --if system fails we need to display an appropriate message
+
+VT-16 - Implement View all consults
+            -- we want to view all consults in the system
+            -- each line will contain:
+                    consult ID, VET Full name, VET Speciality, PET Name, PET Race, DateOfConsult
+                --if system fails we need to display an appropriate message
+
+VT-18 - Implement View Consult By ID
+            -- we want to view detail of an existing PET by ID.
+                -- if the given ID is found, the following details will be shown:
+                    consult ID, VET Full name, VET Speciality, PET Name, PET Race, DateOfConsult
+            -- if the given ID is not found an appropriate message will be shown.
+
+VT-19 - Implement Update Consult By ID
+            -- we should be able to update the details of an existing PET
+            -- if the given ID is found, we should be able to update the following:
+                    VET Full name, VET Speciality, PET Name, PET Race, DateOfConsult
+            -- the system will validate the entry data from user:
+                    VET Full name (verify the entry not blank or empty or null)
+                    VET Speciality (verify the entry not blank or empty or null)
+                    PET Name (verify the entry not blank or empty or null)
+                    PET Race (verify the entry not blank or empty or null)
+                    DateOfConsult (verify the entry not blank or empty or null)
+            -- if the update fails and appropriate message will be shown
+            -- if the given ID is not found an appropriate message will be shown.
+
+VT-20 - Implement Delete Consult By ID
+            -- we want to delete an existing CONSULT by ID.
+            -- if the given ID is found, the CONSULT will be deleted and an appropriate message will be shown.
+            -- if the given ID is not found an appropriate message will be shown.

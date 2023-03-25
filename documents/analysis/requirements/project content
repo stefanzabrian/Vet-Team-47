@@ -1,5 +1,5 @@
     Implement method for vet creation
-    -- we want to create nu entries for vet that will contain :
+    -- we want to create new entries for vet that will contain :
         -- first name (verify the entry not blank or empty)
         -- last name (verify the entry not blank or empty)
         -- address (verify the entry not blank or empty)

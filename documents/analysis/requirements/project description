@@ -19,9 +19,9 @@
     -- is vaccinated
 
     Consult hub must contain :
-    -- veterinarian
-    -- pet
-    -- date
+    -- veterinarian's name
+    -- pet' name
+    -- date of consult
     -- description
 
     For each hub you will need to build the following commands :
