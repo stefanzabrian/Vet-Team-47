@@ -1,0 +1,37 @@
+    Build a pet clinic that will include :
+    -- veterinarian hub
+    -- pet hub
+    -- consult hub
+
+    All the above windows must be in CRUD operations
+
+    Veterinarian hub must contain :
+    -- first name
+    -- last name
+    -- address
+    -- speciality
+
+    Pet hub must contain :
+    -- owner name
+    -- pet name
+    -- birthday
+    -- race
+    -- is vaccinated
+
+    Consult hub must contain :
+    -- veterinarian
+    -- pet
+    -- date
+    -- description
+
+    For each hub you will need to build the following commands :
+    -- create / add
+    -- view all
+    -- find all
+    -- find by id
+    -- update
+    -- delete
+
+
+    For more professionalism we will make an menu that contains all hubs
+    and in each hub we will make its own menu

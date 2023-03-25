@@ -1,0 +1,88 @@
+    Implement method for vet creation
+    -- we want to create nu entries for vet that will contain :
+        -- first name (verify the entry not blank or empty)
+        -- last name (verify the entry not blank or empty)
+        -- address (verify the entry not blank or empty)
+        -- speciality (verify the entry not blank or empty)
+            --if system fails we need to display an appropriate message
+
+    Implement method view all vets
+    -- we want to retrieve all vets in the system
+        --if system fails we need to display an appropriate message
+
+    Implement method to view vet by id
+    -- we want to view the vet details just by using an id that was auto-incremented for each vet
+        --if system fails we need to display an appropriate message
+
+    Implement method for updating an vet details
+    -- we want to update fields on each vet when required
+        -- fields that can be updated are :
+            first name, last name, address, speciality
+
+    Implement method for delete vet
+    -- we want to be able to remove any vet if necessary
+    -- we should use the id of the vet for delete
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+    Implement method for pet creation
+    -- we want to create entries for pet that will contain :
+        -- owner name (verify the entry not blank or empty)
+        -- pet name (verify the entry not blank or empty)
+        -- birthday(verify the entry not blank/empty)
+        -- race (verify the entry not blank or empty)
+        -- is vaccinated (verify the entry not blank or empty)
+            --if system fails we need to display an appropriate message
+
+    Implement method view all pets
+    -- we want to retrieve all pets in the system
+        --if system fails we need to display an appropriate message
+
+    Implement method to view pet by id
+    -- we want to view the pet details just by using an id that was auto-incremented for each pet
+        --if system fails we need to display an appropriate message
+
+    Implement method for updating an pet details
+    -- we want to update fields on each pet when required
+        -- fields that can be updated are :
+            owner name, is vaccinated
+
+    Implement method for delete pet
+    -- we want to be able to remove any pet if necessary
+    -- we should use the id of the pet for delete
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+    Implement method for consult creation
+    -- we want to create entries for consult that will contain :
+        -- vet id (verify the entry not blank or empty or null)
+        -- pet id (verify the entry not blank or empty or null)
+        -- date (verify the entry not blank or empty)
+        -- description (verify the entry not blank or empty)
+            --if system fails we need to display an appropriate message
+
+    Implement method view all consults
+    -- we want to retrieve all consults in the system
+        --if system fails we need to display an appropriate message
+
+    Implement method to view consult by id
+    -- we want to view the consult details just by using an id that was auto-incremented for each consult
+        --if system fails we need to display an appropriate message
+
+    Implement method for updating an consult details
+    -- we want to update fields on each consult when required
+        -- fields that can be updated are :
+            date, description
+
+    Implement method for delete consult
+    -- we want to be able to remove any consult if necessary
+    -- we should use the id of the consult for delete
+
+
+--------------------------------------------------------------------------------------------------------------
