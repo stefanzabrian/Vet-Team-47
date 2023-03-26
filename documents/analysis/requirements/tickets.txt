@@ -1,4 +1,4 @@
-VT-1 - SetUp Hibernate Configuration
+DONE VT-1 - SetUp Hibernate Configuration (pt cei care lucreaza la proiect va trebuie sa faceti o baza de date in mySQL cu numele "vet_team_47" )
 
 VT-2 - Create Hibernate Model ( Build design Diagrams of Data Base before creating the Model & System Architecture Diagram )
 
