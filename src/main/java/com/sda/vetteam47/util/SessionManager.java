@@ -1,4 +1,4 @@
-package com.sda.vetteam47.utils;
+package com.sda.vetteam47.util;
 
 import com.sda.vetteam47.model.Consult;
 import com.sda.vetteam47.model.Pet;

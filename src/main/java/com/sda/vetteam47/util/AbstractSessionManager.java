@@ -1,4 +1,4 @@
-package com.sda.vetteam47.utils;
+package com.sda.vetteam47.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

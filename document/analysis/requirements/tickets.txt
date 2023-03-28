@@ -1,8 +1,8 @@
 DONE VT-1 - SetUp Hibernate Configuration (pt cei care lucreaza la proiect va trebuie sa faceti o baza de date in mySQL cu numele "vet_team_47" )
 
-VT-2 - Create Hibernate Model ( Build design Diagrams of Data Base before creating the Model & System Architecture Diagram )
+DONE VT-2 - Create Hibernate Model ( Build design Diagrams of Data Base before creating the Model & System Architecture Diagram )
 
-VT-3 - Create Generic Hibernate Repository ( repository for Model and A Generic Repository )
+DONE VT-3 - Create Generic Hibernate Repository ( repository for Model and A Generic Repository )
 
 VT-4 - Implement Menu ( check line 36 in "project description" & Build design Diagram for Menu hubs )
 
